@@ -1,5 +1,6 @@
 package gohello
 
-func Hello() string {
-	return "Hello in v1.0.1"
+func Hello(name string) string {
+
+	return "Hello " + name + " ini v2.0.0"
 }
